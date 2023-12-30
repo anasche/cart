@@ -1,0 +1,240 @@
+a {
+  text-decoration: none;
+  color: rgb(13, 76, 82);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.text1 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #002f34;
+
+  padding: 6px 70px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.img {
+  width: 130;
+  height: 130;
+  padding: 10;
+}
+.olxicon {
+  height: 60px;
+  width: 65px;
+  margin-top: 5;
+}
+
+.width-t {
+  padding-top: 15px;
+}
+.width {
+  width: 100%;
+  margin-top: 5px;
+  border: 1px solid rgb(22, 18, 18);
+  border-radius: 4px;
+  resize: vertical;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.flex-container > div {
+  margin: 8px;
+}
+::placeholder {
+  color: black;
+  font-size: medium;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  height: 50px;
+}
+.container-c {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgb(240, 244, 248);
+  height: 90px;
+}
+.container-b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container-d {
+  display: flex;
+}
+.line {
+  line-height: 20px;
+}
+
+footer {
+  display: flex;
+  bottom: 0px;
+  margin-bottom: 0;
+  margin-top: 30;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #ebeeef;
+  padding-bottom: 11px;
+}
+footer a {
+  font-size: 12px;
+}
+footer h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.button1 {
+  background-color: white;
+  font-size: 18px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+}
+.mobile {
+  padding: 10;
+  height: auto;
+  overflow-y: hidden;
+}
+.mobile-b {
+  width: 240px;
+  height: 260px;
+  text-align: center;
+}
+
+.nav {
+  padding: 8px;
+}
+
+.icon-write:before {
+  content: "61";
+  color: #c0dfe8;
+  font-size: 72px;
+  margin-bottom: 24px;
+}
+.padding {
+  padding-right: 10px;
+}
+.center {
+  margin: auto;
+}
+input[type="text"],
+select {
+  padding: 15px;
+
+  border: 2px solid rgb(27, 22, 22);
+}
+.form1 {
+  width: 280px;
+}
+.form2 {
+  width: 400px;
+}
+.select {
+  border: none;
+  background-color: unset;
+  font-size: 18px;
+}
+
+header {
+  background-color: rgb(233, 220, 220);
+  height: 75px;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.d {
+  padding: 20;
+  background-color: #ebeeef;
+}
+.icon {
+  height: 25px;
+  width: 25px;
+  margin-top: 10;
+}
+.ficon {
+  height: 20px;
+  width: 20px;
+}
+body {
+  padding-top: 70px;
+
+  margin: 0;
+}
+.fieldset1 {
+  display: inline-block;
+  width: 10em;
+  height: 240;
+  position: relative;
+  margin: 0px 8px;
+  border-radius: 5px;
+}
+.fieldset2 {
+  display: inline-block;
+  width: 10em;
+  height: 240;
+  position: relative;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+h4 {
+  margin: 0px;
+}
+fieldset > label {
+  display: block;
+  width: 8em;
+  text-align: center;
+  margin: 0 auto;
+}
+.footer-b {
+  float: left;
+  margin: 20px;
+  background-color: white;
+}
+.fresh {
+  background-color: white;
+  padding: 10px;
+}
+.fresh-b {
+  background-color: white;
+  border-color: black;
+  height: auto;
+  padding: 10px;
+  float: left;
+}
+label {
+  text-align: left;
+}
+
+.btn1 {
+  position: absolute;
+}
+.box {
+  height: 180;
+}
+.btn {
+  position: absolute;
+  top: 30;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  width: 30;
+}
